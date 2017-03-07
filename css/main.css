@@ -1,0 +1,1225 @@
+/*#31a32d зеленый */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font: 13px Tahoma, Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    /* Margin bottom by footer height */
+}
+.container{
+    width: 1170px!important;
+}
+.wrapper{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 998;
+}
+
+.context{
+    position: relative;
+    padding-bottom: 550px;
+    width: 100%;
+
+}
+.footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 416px;
+}
+
+.sticky-content{
+}
+
+.sticky-content.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 1170px;
+}
+
+
+.white{
+    color: #FFFFFF!important;
+}
+.no-margin{
+    margin: 0;
+    padding: 0;
+}
+.padding-right{
+    padding-right: 5px;
+}
+.padding-left{
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.top-block{
+    background: #f6f6f6;
+    box-shadow: 0 -2px 3px #eee inset;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.top-block ul{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.block_user ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.top-block li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.top-block li a{
+    display: block;
+    font-size: 13px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.top-block .menu_header li a{
+    color:  #009900;
+    text-decoration: underline;
+}
+.top-block .menu_header li a:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+.top-block .block_user li a{
+    color: #333;
+}
+.top-block .block_user li a:hover{
+    color: #c0c0c0;
+}
+
+.header{
+    padding: 10px 0 10px 0;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    color: #333;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logo span{
+    display: block;
+    font-size: 15px;
+
+}
+.ti_adress{
+    font-size: 22px;
+    margin-left: -117px;
+}
+.payment{
+    display: block;
+    position: absolute;
+    height: 70px;
+    width: 110px;
+    top: 0;
+    right: 37px;
+}
+.payment img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.phone-line{
+    font-size: 22px;
+    line-height: 28px;
+    color: #464646;
+}
+.phone-line span{
+    font-size: 14px;
+    line-height: 12px;
+    color: #7D7D7D;
+}
+.block-basket{
+    font-size: 14px;
+    float: right;
+    width: 200px;
+}
+.block-basket img{
+    display: inline;
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+.block-basket p{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.block-basket .cart_text{
+    padding: 0 0 0 8px;
+    float: left;
+    width: 108px;
+}
+.t_basket{
+    color: #009900;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.r{
+    color: #000;
+    font-weight: 700
+}
+
+.menu{
+    background: #003300;
+    background: linear-gradient(to top, #003300, #006600);
+    padding: 2px 0 1px 0;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.menu ul{
+    margin: 0;
+    padding:0 10px 0 10px; 
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    outline: none;
+}
+
+.menu li a:hover, .menu li.active1 {
+    background: #009900;
+    border-radius: 3px;
+}
+.search_form{
+    display: block;
+}
+.search {
+    width: 200px; /* Ширина поля с кнопкой */
+    border: 1px solid #000; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+}
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    border-radius: 3px;
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 335px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    margin-top: 3px;
+}
+input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 24px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../img/search.png) no-repeat 50% 50%; /* Параметры фона */
+    vertical-align: middle;
+}
+
+.slider{
+    background: url(../img/slide-1247x392.png) no-repeat 90% 10%;
+    height: 250px;
+    margin: 5px 0 5px 0;
+    border-radius: 4px;
+}
+
+
+
+/* Начало выборки фильтры */
+.filter-param-shina, .filter-param-disk{
+    display: block;
+}
+.filter-param-shina-auto{
+    display: none;
+}
+
+.filter-param-shina, .filter-param-disk{
+    background: #f6f6f6;
+    font-size: 13px;
+}
+.filter-param-shina-auto, .filter-param-disk-auto{
+    background: #f6f6f6;
+
+}
+
+.main-filter-tabs{
+    box-shadow: 0 -2px 3px #eee inset;
+    height: 290px;
+}
+
+.tag-filtr-title{
+    display: block;
+    background: linear-gradient(to top, #003300, #006600);
+    padding: 0 10px 0 10px;
+    border-radius: 6px 6px 0 0;
+    max-height: 66px;
+}
+
+.tag-filtr-title h1{
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 20px 0 15px 0;
+    margin: 0;
+}
+.filt-body{
+    padding: 20px 20px 0 20px;
+    height: 216px;
+    background: url(../img/tyreimage.png) no-repeat 0px 60px;
+    overflow: hidden;
+}
+
+.tag-filtr-title ul{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+    padding: 0;
+    margin: 0;
+    top: 42px;
+}
+.tag-filtr-title ul li{
+    position: relative;
+    display: inline-block;
+
+}
+
+.tag-filtr-title ul li a{
+    color: #fff;
+    background: #afafaf;
+    text-decoration: none;
+    padding: 7px 25px;
+    border: 1px solid #b2b2b2;
+    margin: 0 0 0 4px;
+    border-radius: 4px 4px 0 0;
+}
+.tag-filtr-title ul li a:hover, .tag-filtr-title li.active a{
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.tag-filtr-title .sel-row{
+    position: relative;
+}
+
+.params_section{
+    padding: 45px 15px 15px 237px;
+}
+.sel-row{
+    min-height: 50px;
+}
+.sel-row .sel-section {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.sel-row .sel-section .label{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3px 0 7px 0;
+}
+#select-bus-manufacturers{
+    width: 270px;
+}
+#select-bus-season{
+    width: 270px;
+}
+.main-filter-tabs select {
+    width: 71px;
+    height: 25px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+.main-filter-tabs .inline-help {
+    display: inline-block;
+    margin: 29px 8px 0 8px;
+}
+
+.sel-row-line{
+    display: block;
+    height: 40px;
+}
+.left-col{
+    float: left;
+    padding-right: 10px;
+    width:  50%;
+}
+.right-col{
+    float: right;
+    padding-left: 10px;
+    width:  50%;
+}
+
+.ch-section{
+    margin: 0 0 10px;
+    padding: 67px 0px 0px 240px;
+}
+.check-block{
+    padding: 2px 0 2px 1px; 
+    display: inline-block;
+    margin-bottom: 1px;
+    width: 110px;
+}
+.but-row{
+    padding: 0px 0px 0px 240px;
+
+}
+.button1{
+    background: linear-gradient(to top, #003300, #006600);
+    line-height: 27px; 
+    /* height: 29px; */
+    padding: 0 10px;
+    font-size: 14px;
+    /* font-weight: bold;*/
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 0;
+    color: #fff;
+}
+.pick_up{
+    width: 200px;
+}
+.button2{
+    background: linear-gradient(to top, #9f0000, #e76b4f);
+    line-height: 27px; 
+    /* height: 29px; */
+    padding: 0 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+.button3{
+    background: linear-gradient(to top, #004579, #005788);
+    line-height: 27px; 
+    /* height: 29px; */
+    padding: 0 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.filt-body [class*="icon-"], .module-filter [class*="icon-"], .choice [class*="icon-"], .block_product [class*="icon-"] {
+    background: url(../img/icon_types.png) no-repeat;
+    padding-left: 26px;
+}
+.icon-winter {
+    background-position: 0 -82px!important;
+
+}
+.icon-summer {
+    background-position: 0 -101px!important;
+}
+.icon-spikes {
+    background-position: 0 -42px!important;
+}
+.icon-flat {
+    background-position: 0 -181px!important;
+}
+.input {
+    vertical-align: middle;
+}
+
+.form-line{
+    display: block;
+    padding: 8px 0 9px 0;
+}
+.filt-body-par{
+    width: 307px;
+    float: right;
+}
+.form-line-title{
+    display: block;
+    width: 307px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0px 0 0px 0;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+#select-mark{
+    display: block;
+    width: 307px!important;
+    margin-bottom: 3px;
+}
+#select-model{
+    display: block;
+    width: 307px!important;
+    margin-bottom: 3px;
+}
+#select-modification{
+    display: block;
+    width: 307px!important;
+    margin-bottom: 3px;
+}
+select {
+    cursor: pointer; 
+}
+.form-line{
+    width: 100%;
+}
+.form-line select{
+    float: right;
+}
+
+.filt-body-d{
+    padding: 20px 20px 0 20px;
+    height: 216px;
+    background: url(../img/disk.png) no-repeat 0px 60px;
+    overflow: hidden;
+}
+.params_section_disk{
+    padding: 0 0 0 240px;
+}
+.str{
+    padding-top: 40px!important;
+
+}
+/* Конец выборки фильтры */
+
+/* Поиск горизонтальный в nav */
+.nav-filtr-block{
+    position: relative;
+    background: #afafaf;
+    margin: 0px 0 0px 0;
+    border-radius: 4px;
+    padding: 6px;
+}
+.nav_block_fix{
+    position: fixed;
+    height: 100%;
+    display: block;
+    z-index: 999;
+    top: 0;
+    width: 1170px;
+}
+.add-settings-nav-filtr-block{
+    display: none;
+}
+.nav-filtr-in{
+    position: relative;
+    background: #f6f6f6;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.nav-filrr-body{
+    position: relative;
+    background: #fff;
+    padding: 15px 18px;
+    float: left;
+    border-radius: 2px;
+    margin: 0 5px 0 5px;
+    max-height: 42px;
+}
+
+.cheks-gor-item .cheks-bloks, .cheks-bloks-type-auto, .cheks-bloks-type-disk{
+    display: inline;
+    padding: 3px;
+}
+
+.cheks-bloks, [class*="icon-"] {
+    background: url(../img/icon_types.png) no-repeat;
+    padding-left: 26px;
+}
+.cheks-bloks .icon-winter {
+    background-position: 0 -82px!important;
+
+}
+.cheks-bloks .icon-summer {
+    background-position: 0 -101px!important;
+}
+.cheks-bloks .icon-spikes {
+    background-position: 0 -42px!important;
+}
+.cheks-bloks .icon-flat {
+    background-position: 0 -181px!important;
+}
+.nav-param{
+    float: left;
+    margin-top: -3px;
+}
+.nav-param-width{
+    width: 120px!important;
+    font-size: 8px;
+}
+.nav-filrr-body .tit_param{
+    font-weight: 700;
+    padding: 8px 10px 0px 10px;
+    float: left;
+    line-height: 10px;
+    font-size: 11px;
+}
+.nav-filrr-body select{
+    width: 90px;
+    height: 23px;
+    float: left;
+}
+.select180 {
+    width: 180px!important;
+}
+.select70 {
+    width: 70px!important;
+}
+.pad {
+    padding-top: 0px!important;
+}
+.btn-gor{
+    float: right;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+}
+.cheks-bloks-type-auto, [class*="icon-"] {
+    padding-left: 34px;
+}
+.icon-sedan{
+    background: url(../img/type_car/sedan.png) no-repeat 1px -3px;
+}
+.icon-djip{
+    background: url(../img/type_car/djip.png) no-repeat 1px -5px;
+}
+.icon-gruzovoy{
+    background: url(../img/type_car/gruzovoy.png) no-repeat 4px -3px;
+}
+
+.cheks-bloks-type-disk img{
+    margin-top: -7px;
+    margin-right: -35px;
+}
+.icon-litoy{
+}
+.add-settings{
+    position: absolute;
+    font-weight: 700;
+    font-size: 12px;
+    top: 36px;
+    right: 6px;
+}
+/* Поиск горизонтальный в nav */
+
+
+/*Хлебные крошки */
+.h_title h1{
+    margin: 12px 0 12px 0;
+}
+.breadcrumb{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #000;
+    height: 20px;
+}
+.breadcrumb li {
+    display: inline-block;
+}
+.breadcrumb li a {
+    font-size: 12px;
+    color: #464646;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/*Хлебные крошки */
+
+
+
+
+
+
+/* Подвал линия */
+.brands_l{
+    background: #E7E9EB;
+}
+
+
+.line_footer{
+    background: linear-gradient(to top, #003300, #006600);
+    color: #fff;
+    border-radius: 4px;
+}
+.fl_logo{
+    float: left;
+}
+.fl_contact{
+    float: right;
+}
+.fl_logo{
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.fl_contact{
+    line-height: 55px;
+    font-size: 11px;
+}
+.fl_contact_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.fl_contact_list li{
+    display: inline-block; 
+}
+.fl_contact_list li a{
+    color: #FFFFFF;
+    text-decoration: none; 
+    text-transform: uppercase;
+    padding:  10px 10px ;
+}
+/* End Подвал линия */
+
+/* Подвал меню */
+.footer_wrapper{
+    padding: 20px;
+}
+.fw_title{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+.fw_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 10px 0 10px 0;
+}
+.fw_list li{
+    display: block; 
+    padding: 3px 3px;
+}
+.fw_list li a{
+    font-size: 12px;
+    color: #000;
+    display: block;
+    text-decoration: underline; 
+    text-transform: capitalize;
+    /* Переход */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.fw_list li a:hover{
+    color: #15B1D2;
+}
+.subscription{
+    font-size: 10px;
+    color: #000;
+}
+/* End Подвал меню */
+
+/* End Подвал социал */
+.item_footer{
+    background: #E6E9EC;
+    padding: 0px;
+    border-radius: 4px;
+}
+.it_title{
+    float: left;
+}
+.it_title span{
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 20px;
+    line-height: 55px;
+}
+.it_soc{
+    float: right;
+}
+.social_ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 55px;
+}
+.social_ul li{
+    display: inline-block; 
+}
+.social_ul li a{
+    font-size: 11px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none; 
+    padding: 0px 10px 0px 15px;
+    /* Переход */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.social_ul .facebook{
+    color: #39579A;
+}
+.social_ul .twitter{
+    color: #50ABF1;
+}
+.social_ul .google{
+    color: #E32D28;
+}
+.social_ul .youtube{
+    color: #E32D28;
+}
+
+
+.social_ul li a:hover{
+    opacity: 0.5;
+}
+/* End Подвал социал */
+
+/* Подвал линия последняя */
+.e_footer{
+    background: linear-gradient(to top, #003300, #006600);
+    color: #fff;
+    font-size: 9px;
+    line-height: 30px;
+    text-align: center;
+}
+/* End линия последняя */
+
+/* Подвал ярлык доставки */
+.inline{
+    min-width: 1170px;
+}
+.in_link{
+    width: 160px; /* Ширина слоя */
+    height: 100px; /* Высота слоя */
+    padding: 10px 5px 5px 10px;
+}
+.in_link a{
+    display: block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+    height: 100%; /* Высота на весь слой */
+    color: #000; /* Цвет ссылки */
+    /* Переход */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.in_link a:hover{
+    opacity: 0.5;
+}
+.inl_title{
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-weight: 700;
+}
+.inl_text{
+    font-size: 12px;
+    line-height: 14px;
+}
+.inl_icon{
+    line-height: 35px;
+}
+/* End ярлык доставки */
+
+.list-catalog ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.list-catalog ul li{
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #afafaf;
+    margin: 5px 20px 5px 20px;
+    text-align: center;
+}
+.list-catalog ul li:hover{
+    border: 1px solid #666;
+}
+
+.list-catalog ul li a{
+    display: block;
+    color: #000;
+    font-weight: 700;
+    padding: 5px 46px 5px 46px;
+}
+.img_link{
+    display: block;
+}
+
+/* Подбор лист шин диска */
+.choice{
+
+}
+.ch_h1{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+.ch_block_tit{
+}
+
+.block_sel{
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+    border: 1px solid #afafaf;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ch_sort{
+    display: inline;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+}
+.ch_sort:hover{
+    color: #009900;
+    font-weight: 700;
+}
+.item_block{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.item_block_rigth{
+    padding-right: 0px!important;
+}
+.block_bar{
+    background: linear-gradient(to top, #f2f2f2, #fefefe);
+    padding: 15px;
+    position: relative;
+    /*  height: 185px; */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid #f2f2f2;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.ch_block_price_r{
+    text-align: center;
+    padding: 10px 0 10px 0;
+
+}
+.choice .item{
+    background: linear-gradient(to top, #f2f2f2, #fefefe);
+    padding: 15px;
+    position: relative;
+    height: 185px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid #f2f2f2;
+}
+.choice .ch_block_img{
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.choice .ch_img{
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.31);
+    padding: 0 5px;
+    top: 20px;
+    left: 30px;
+    width: 125px;
+    height: 160px;
+    text-align: center;
+}
+.choice .ch_img img{
+    vertical-align: middle;    
+    max-width: 100%;
+    height: auto;
+}
+
+.ch_block_img_r{
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.ch_img_r{
+    background: #fff;
+    padding: 0 5px;
+    height: 70px;
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+}
+.ch_img_r img{
+    vertical-align: middle;    
+    max-width: 100%;
+    height: auto;
+}
+
+.choice .ch_block_desc{
+    padding: 5px;
+    float: left;
+    max-width: 656px;
+    padding-left: 45px;
+}
+.ch_block_desc_r{
+    padding: 5px;
+    text-align: center;
+}
+.brands_ri{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFF;
+}
+.label_icon_r{
+    position: absolute;
+}
+.text_ch_tit a{
+    display: block;
+    font-size: 21px;
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+.text_ch_code span{
+    font-weight: 700;
+}
+.text_ch_code{
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.ch_para_brand{
+    position: relative;
+}
+.text_ch_param{
+    display: block;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.ch_brand img{
+    max-width: 175px;
+    max-height: 100%;
+}
+.ch_brand {
+    float: left;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.ch_block_price{
+    float: right;
+    max-width: 123px;
+    padding: 0 0 0 10px;
+    text-align: right;
+}
+.ch_me_param{
+    float: left;
+}
+.ch_price{
+    color: #4d4d4d;
+    display: block;
+    font-size: 14px;
+}
+.ch_price span{
+    font-weight: 700;
+    font-size: 23px;
+}
+.ch_sezon_block{
+    padding-left: 5px;
+    display: block;
+    float: left;
+}
+.ch_sezon_block label {
+    display: block;
+    margin-bottom: 7px;
+    height: 20px;
+}
+.ch_block_sesshina{
+    position: absolute;
+    top: 138px;
+    left: 215px;
+}
+.ch_block_sesshina .seasonal_storage{
+    float: left;
+    margin-right: 10px;
+}
+.ch_block_sesshina .tire{
+    float: left;
+    margin-right: 10px;
+}
+.icon-winter_ch {
+    background-position: 0 0px!important;
+
+}
+.label_sale{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.discount__bottom{
+    display: block;
+    position: relative;
+    /* border-radius: 55px; */
+    -moz-border-radius: 55px;
+    /* -webkit-border-radius: 55px; */
+    -khtml-border-radius: 55px;
+    /* line-height: 12px; */
+    background: #e50000;
+    color: #fff;
+    padding: 3px 0 3px 13px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon-summer_ch {
+    background-position: 0 -20px!important;
+}
+.icon-spikes_ch {
+    background-position: 0 -40px!important;
+}
+.icon-flat_ch {
+    background-position: 0 -161px!important;
+}
+.btn_ch{
+    min-width: 123px;
+    text-align: center;
+}
+.btn_ch_r{
+    top: 62px;
+    width: 123px;
+    text-align: center;
+}
+.ch_search{
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-top: -10px;
+    z-index: 500;
+    background: url(../img/icons/search.png) no-repeat 0px 0px;
+    cursor: pointer;
+}
+
+/* End Подбор лист шин диска */
+
+
+/*Карточка продукта*/
+.block_product{
+    margin: 10px 0;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.31);
+    border-radius: 5px;
+
+}
+.pr_title{
+    font-size: 32px;
+    text-decoration: underline;
+    color: #4d526d;
+}
+.pr_img_block{
+    padding: 0 20px;
+}
+.pr_img{
+
+    background: #fff;
+    padding: 0 5px;
+    width: 208px;
+    height: 275px;
+    text-align: center;
+}
+.pr_img img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.label_icon_pr{
+    margin: 5px 0;
+
+}
+.block_product .label_icon_pr label{
+    display: block;
+    margin-bottom: 7px;
+    height: 20px;
+    font-size: 14px;
+}
+.pr_article{
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.pr_article span{
+    font-weight: 700;
+}
+.pr_block_add{
+    padding: 5px 0;
+}
+.pr_btn{
+    margin-left: 30px;
+}
+.logo_manufacture{
+    background: #15B1D2;
+}
+.pr_head{
+    float: left;
+    max-width: 673px;
+}
+.logo_manufacture{
+    float: right;
+}
+.logo_manufacture img{
+    max-width: 175px;
+} 
+/*END Карточка продукта*/
+
