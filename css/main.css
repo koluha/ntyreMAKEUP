@@ -251,6 +251,7 @@ input[type="submit"] {
 
 
 /* Начало выборки фильтры */
+
 .filter-param-shina, .filter-param-disk{
     display: block;
 }
@@ -1154,6 +1155,10 @@ select {
 
 
 /*Карточка продукта*/
+.block_product_main{
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.31); 
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.31);
+}
 .block_product{
     margin: 10px 0;
     padding: 10px 0;
@@ -1204,9 +1209,10 @@ select {
 }
 .pr_block_add{
     padding: 5px 0;
+    width: 630px;
 }
 .pr_btn{
-    margin-left: 30px;
+    float: right;
 }
 .logo_manufacture{
     background: #15B1D2;
@@ -1221,5 +1227,151 @@ select {
 .logo_manufacture img{
     max-width: 175px;
 } 
+
+.pr_block_desc{
+    font-size: 13px;
+    background: linear-gradient(to top, #f2f2f2, #fefefe);
+    width: 630px;
+    margin: 5px 0;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.pr_desc_tit{
+    font-weight: 700;
+}
+.pr_desc_item{
+    margin: 2px 0;
+    padding: 5px 0;
+    clear: both;
+}
+.pr_desc_item .pr_desc_parametr{
+    float: left;
+}
+.pr_desc_item .pr_desc_value{
+    float: right;
+}
+.pr_desc_link{
+    margin: 5px 0;
+}
+
+.tabs_my{
+    margin: 5px 0 10px 0;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-tabs {
+    position: relative;
+    padding: .2em;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+}
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 1px .2em 0 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+    border-radius: 5px 5px 0 0;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: text;
+}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+    cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {   
+    border-top: 1px solid #CCCCCC;
+    display: block; 
+    padding: 1em 1.4em;
+    background: none;
+}
+.ui-tooltip {
+    padding: 8px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 5px #aaa;
+}
+ 
+/* Component containers
+----------------------------------*/
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1em;
+}
+.ui-widget-content {    
+    background: #ffffff;
+    color: #222222;
+}
+.ui-widget-content a {
+    color: #222222;
+}
+/*НЕ АКТИВНЫЙ ТАБ*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6;
+    font-weight: normal;
+    color: #555555;
+}
+ 
+/*ПРИ НАВЕДЕНИЕ НА ТАБ*/
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: 1px solid #999999;
+    background: #dadada;
+    font-weight: normal;
+    color: #212121;
+}
+/*АКТИВНЫЙ ТАБ*/
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+    font-weight: normal;
+    color: #212121;
+}
+
 /*END Карточка продукта*/
+
+
+
+
 

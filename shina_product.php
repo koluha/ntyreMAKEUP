@@ -11,8 +11,16 @@
         <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" /> <!-- Сетка  -->
         <link rel="stylesheet" href="libs/font-awesome-4.6.1/css/font-awesome.min.css" /> <!-- Модуль шрифтов с иконками https://fortawesome.github.io/Font-Awesome/icons/ -->
         <link rel="stylesheet" href="css/main.css" /> <!-- Стили  -->
-        <script src="libs/jquery/jquery-1.11.1.min.js"></script> <!-- jquery  -->
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
         <script src="js/command.js"></script> <!-- jquery  код-->
+        <script>
+            $(function () {
+                $("#tabs").tabs();
+            });
+        </script>
     </head>
     <body>
         <div class="wrapper">
@@ -137,6 +145,7 @@
                                 <div class="pr_block-top clearfix">
                                     <div class="pr_head">
                                         <div class="pr_title">Michelin X-ICE North 3 205/55 R16 </div>
+                                        <div class="text_ch_param">155/70 R13 75Q</div>
                                         <div class="label_icon_pr">
                                             <label class="icon-winter_ch"> Зима </label>
                                         </div>
@@ -170,19 +179,60 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="pr_block-desc">
-                                    описание хар
+                                <div class="pr_block_desc clearfix">
+                                    <div class="pr_desc_tit">Технические характеристики:</div>
+                                    <div class="pr_desc_item clearfix">
+                                        <div class="pr_desc_parametr">Наличие:</div>
+                                        <div class="pr_desc_value">В наличии</div>
+                                    </div>
+                                    <div class="pr_desc_item clearfix">
+                                        <div class="pr_desc_parametr">Размерность:</div>
+                                        <div class="pr_desc_value">155/70 R13</div>
+                                    </div>
+                                    <div class="pr_desc_item clearfix">
+                                        <div class="pr_desc_parametr">Сезон:</div>
+                                        <div class="pr_desc_value">Зимние</div>
+                                    </div>
+                                    <div class="pr_desc_item clearfix">
+                                        <div class="pr_desc_parametr">Шипы:</div>
+                                        <div class="pr_desc_value">Нет</div>
+                                    </div>
+                                    <div class="pr_desc_item clearfix">
+                                        <div class="pr_desc_parametr">RunFlat:</div>
+                                        <div class="pr_desc_value">Нет</div>
+                                    </div>
+                                    <div class="pr_desc_link"><a href="#">-> Все характеристики</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="container"> <!-- catalog --> 
+                <div class="container"> 
                     <div class="row">
-
+                        <!-- tabs --> 
+                        <div class="tabs_my">
+                            <div id="tabs">
+                                <ul>
+                                    <li><a href="#tabs-1">Описание</a></li>
+                                    <li><a href="#tabs-2">Характеристики</a></li>
+                                    <li><a href="#tabs-3">Фото</a></li>
+                                    <li><a href="#tabs-4">Карта</a></li>
+                                    <li><a href="#tabs-5">Отзывы(0)</a></li>
+                                </ul>
+                                <div id="tabs-1">
+                                    <p>Комментарий для ВК</p>
+                                </div>
+                                <div id="tabs-2">
+                                    <p>Комментарий для Facebook</p>
+                                </div>
+                                <div id="tabs-3">
+                                    <p>Комметарий от WordPress</p>          
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end tabs --> 
                     </div>
-                </div>     <!-- End catalog --> 
+                </div>     
 
 
 
