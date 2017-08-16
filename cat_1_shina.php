@@ -120,7 +120,7 @@
 
                 <div class="container context_base">
                     <div class="row">
-                        <div class="col-xs-12">
+                        <div class="col-xs-3">
                             <div class="left-filtr">
                                 <div class="left-title-filtr"> 
                                     <ul>
@@ -132,7 +132,7 @@
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="select-bus-manufacturers" name="manufacturer" class="select"><option value="ALL" selected="">Все производители</option>
+                                                <select id="select-bus-manufacturers" name="manufacturer" class="select select-248"><option value="ALL" selected="">Все производители</option>
                                                     <option value="michelin">Michelin</option>
                                                     <option value="goodyear">Goodyear</option>
                                                 </select>
@@ -220,7 +220,7 @@
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="select-mark" name="manufacturer" class="select"><option value="">Выберите из списка</option>
+                                                <select id="left-select-mark" name="manufacturer" class="select select-248"><option value="">Выберите из списка</option>
                                                     <option value="Acura">Acura</option>
                                                     <option value="Alfa Romeo">Alfa Romeo</option>
                                                 </select>
@@ -230,7 +230,7 @@
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="select-model" name="model" class="select">
+                                                <select id="left-select-model" name="model" class="select select-248">
                                                 </select>
                                             </div>
 
@@ -239,7 +239,7 @@
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="select-modification" name="Modification" class="select">
+                                                <select id="left-select-modification" name="Modification" class="select select-248">
                                                 </select>
                                             </div>
 
@@ -253,9 +253,210 @@
                                 </div>
 
                             </div>
+                        </div>   
+                        <div class="col-xs-9">
+                            <h1>Каталог шин</h2>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="catalog_base">
+                                    <li>
+                                        <div class="catalog-it">
+                                            <a href="#" class="cat-link_1">Шины Toyo</a>
+                                            <a href="#" class="cat-link_2"><img src="/img/brands_shine/toyo.jpg" width="155" 
+                                                                                height="42" alt="Шины Toyo"></a>
+                                            <a href="#" class="cat-link_3"><label class="icon-winter" for="arrFilter_312_3042645098">
+                                                    <span>Зимние</span>
+                                                </label></a>
+                                            <a href="#" class="cat-link_4"><label class="icon-summer" for="arrFilter_312_3042645098">
+                                                    <span>Летние</span>
+                                                </label></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <h1>Преимущества покупки автошин в нашем магазине</h1> 
+                                <p>Магазин  реализует с курьерской доставкой новые зимние и летние шины разных диаметров. В Москве и Подмосковье работают шинные центры, в которых вы можете недорого купить и установить новую резину. Отправка продукции осуществляется по всем городам РФ.</p>
+                                <p>Для удобного и быстрого подбора новой резины в левой части сайта предусмотрена специальная форма онлайн-поиска. Можно указать точные характеристики зимних шин либо просто выбрать модель автомобиля. В дополнение к этому вы всегда можете позвонить по нашему бесплатному номеру и получить консультацию специалиста.</p>
+
                         </div>
                     </div>
-
                 </div>
             </div><!-- end Context -->
 

@@ -127,6 +127,29 @@ $(document).ready(function() {
                 }
             }
     );
+    
+    
+        /* Обработчик клип по смене фильтра в каталоге*/
+    $('.left-title-filtr-disk li').click(
+            function() {
+                event.preventDefault();
+                list = $(this).parent(); //все списки li
+                list.find('li').removeClass('active');    //Удаляем класс
+                form_param_shina = $(this).parent().parent().parent().parent().find('.left-filter-param-disk');
+                form_param_shina_auto = $(this).parent().parent().parent().parent().find('.left-filter-param-disk-auto');
+
+                $(this).toggleClass('active', '');
+
+                if ($(this).hasClass('first')) {
+                    form_param_shina_auto.hide();
+                    form_param_shina.fadeIn(300);
+                } else if ($(this).hasClass('last')) {
+                    form_param_shina.hide();
+                    form_param_shina_auto.fadeIn(300);
+                }
+            }
+    );
+
 
 
 });

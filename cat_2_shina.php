@@ -120,15 +120,15 @@
 
                 <div class="container context_base">
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-xs-3">
                             <div class="left-filtr">
-                                <div class="left-title-filtr-disk"> 
+                                <div class="left-title-filtr"> 
                                     <ul>
                                         <li class="first active"><a href="">По параметрам</a></li><li class="last"><a href="">По автомобилю</a></li>
                                     </ul>
                                 </div> 
-                                <!--left-filter-param-disk -->
-                                <div class="left-filter-param-disk">
+                                <!--left-filter-param-shina  -->
+                                <div class="left-filter-param-shina">
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
@@ -140,77 +140,71 @@
                                         </div>
                                     </div>
                                     <div class="block-param">
-                                        <div class="parent-param-center">
-                                            <div id="select-manufacturers">
-                                                <select id="select-bus-manufacturers" name="manufacturer" class="select select-248"><option value="ALL" selected="">Тип диска</option>
-                                                    <option value="michelin">Литые</option>
-                                                    <option value="goodyear">Штамповочные</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="block-param">
                                         <div class="parent-param">
                                             <div class="left-sel-row">
                                                 <div class="left-params_section">
                                                     <!-- блок 1 -->
-                                                    <div class="left-sel-section">
-                                                        <div class="label_f">Диаметр</div> 
-                                                        <select>
-                                                            <option value="">—</option>
-                                                            <option data-value="arrFilter_313_930177377" value="Y">145</option>
-                                                            <option data-value="arrFilter_313_778719264" value="Y">155</option>
-                                                        </select>
-                                                    </div>
-                                                    <!-- блок 2 --> 
-                                                    <span class="inline-help slash">X</span>
                                                     <div class="left-sel-section">
                                                         <div class="label_f">Ширина</div> 
                                                         <select>
                                                             <option value="">—</option>
+                                                            <option data-value="arrFilter_313_930177377" value="Y">145</option>
+                                                            <option data-value="arrFilter_313_778719264" value="Y">155</option>
+                                                        </select>
+                                                    </div>
+                                                    <!-- блок 2 --> 
+                                                    <span class="inline-help slash">/</span>
+                                                    <div class="left-sel-section">
+                                                        <div class="label_f">Высота</div> 
+                                                        <select>
+                                                            <option value="">—</option>
                                                             <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
                                                             <option data-value="arrFilter_292_3808539628" value="Y">35</option>
+                                                        </select>
+                                                    </div>
+                                                    <!-- блок 3 -->
+                                                    <span class="inline-help radius">R</span>
+                                                    <div class="left-sel-section">
+                                                        <div class="label_f">Диаметр</div> 
+                                                        <select>
+                                                            <option value="">—</option>
+                                                            <option data-value="arrFilter_311_945058907" value="Y">13</option>
+                                                            <option data-value="arrFilter_311_2788221432" value="Y">14</option>
                                                         </select>
                                                     </div>
                                                 </div> 
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="block-param">
-                                        <div class="parent-param">
-                                            <div class="left-sel-row">
-                                                <div class="left-params_section">
-                                                    <!-- блок 1 -->
-                                                    <div class="left-sel-section">
-                                                        <div class="label_f">PCD</div> 
-                                                        <select>
-                                                            <option value="">—</option>
-                                                            <option data-value="arrFilter_313_930177377" value="Y">145</option>
-                                                            <option data-value="arrFilter_313_778719264" value="Y">155</option>
-                                                        </select>
-                                                    </div>
-                                                    <!-- блок 2 --> 
-                                                    <span class="inline-help slash">X</span>
-                                                    <div class="left-sel-section">
-                                                        <div class="label_f">Вылет ET</div> 
-                                                        <select>
-                                                            <option value="">—</option>
-                                                            <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
-                                                            <option data-value="arrFilter_292_3808539628" value="Y">35</option>
-                                                        </select>
-                                                    </div>
-                                                    <!-- блок 3 --> 
-                                                    <span class="inline-help slash">X</span>
-                                                    <div class="left-sel-section">
-                                                        <div class="label_f">ЦО (DIO)</div> 
-                                                        <select>
-                                                            <option value="">—</option>
-                                                            <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
-                                                            <option data-value="arrFilter_292_3808539628" value="Y">35</option>
-                                                        </select>
-                                                    </div>
-                                                </div> 
+                                        <div class="parent-param-center">
+                                            <div class="left-ch-section">
+                                                <div class="check-block">
+                                                    <input type="checkbox" name="arrFilter_312_743589328" id="arrFilter_312_743589328" value="Y">						
+                                                    <label class="icon-winter" for="arrFilter_312_3042645098">
+                                                        <span>Зимние</span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-block">
+                                                    <input type="checkbox" name="arrFilter_312_3042645098" id="arrFilter_312_3042645098" value="Y">						
+                                                    <label class="icon-summer" for="arrFilter_312_3042645098">
+                                                        <span>Летние</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-param">
+                                        <div class="parent-param-center">
+                                            <div class="left-ch-section">
+                                                <div class="check-block">
+                                                    <input type="checkbox" name="arrFilter_316_1532327238" id="arrFilter_316_1532327238" value="Y">
+                                                    <label class="icon-spikes" for="arrFilter_316_1532327238"><span>Шипы</span></label>
+                                                </div>
+                                                <div class="check-block">
+                                                    <input type="checkbox" name="arrFilter_316_1532327238" id="arrFilter_316_1532327238" value="Y">
+                                                    <label class="icon-flat" for="arrFilter_316_1532327238"><span>Run Flat</span></label>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -220,13 +214,13 @@
                                         </div>
                                     </div>
                                 </div>  
-                                <!--left-filter-param-disk  -->
+                                <!--left-filter-param-shina  -->
 
-                                <div class="left-filter-param-disk-auto">
+                                <div class="left-filter-param-shina-auto">
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="left-select-mark" name="manufacturer" class="select"><option value="">Выберите из списка</option>
+                                                <select id="left-select-mark" name="manufacturer" class="select select-248"><option value="">Выберите из списка</option>
                                                     <option value="Acura">Acura</option>
                                                     <option value="Alfa Romeo">Alfa Romeo</option>
                                                 </select>
@@ -236,7 +230,7 @@
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="left-select-model" name="model" class="select">
+                                                <select id="left-select-model" name="model" class="select select-248">
                                                 </select>
                                             </div>
 
@@ -245,7 +239,7 @@
                                     <div class="block-param">
                                         <div class="parent-param-center">
                                             <div id="select-manufacturers">
-                                                <select id="left-select-modification" name="Modification" class="select">
+                                                <select id="left-select-modification" name="Modification" class="select select-248">
                                                 </select>
                                             </div>
 
@@ -259,12 +253,145 @@
                                 </div>
 
                             </div>
-                        </div>
-                         <div class="col-xs-8">
-                            <h1>Каталог колесных дисков</h2>
+                        </div>   
+                        <div class="col-xs-9">
+                            <div class="h_cat_line clearfix">
+                                <h1>Шины Michelin («Мишлен»)</h1>
+                                <img src="/img/brands_shine/toyo.jpg" width="155" 
+                                     height="42" alt="Шины Toyo">
+                            </div>
+
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="catalog_base_inner">
+                                <li>
+                                    <div class="catalog-it-inner">
+                                        <a href="#" class="cat-link_1 cat-link_1_pop">
+                                            <label class="icon-summer" for="arrFilter_312_3042645098"></label>
+                                            <div class="img-cat">
+                                                <img src="/img/bfgoodrich-all-terrain.jpg" width="155" 
+                                                     alt="Шины Toyo">
+                                            </div>
+
+                                            <div class="caption">
+                                                <span>Michelin Pilot Sport 4 S</span>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+
+
                         </div>
                     </div>
-
                 </div>
             </div><!-- end Context -->
 

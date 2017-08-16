@@ -624,7 +624,7 @@ select {
     margin: 0;
 }
 .cheks-bloks-type-auto, [class*="icon-"] {
-    padding-left: 34px;
+    padding-left: 23px;
 }
 .icon-sedan{
     background: url(../img/type_car/sedan.png) no-repeat 1px -3px;
@@ -1378,7 +1378,7 @@ select {
 /*Фильтр слева*/
 .left-filtr{
     background: linear-gradient(to top, #003300, #006600);
-    width: 300px;
+    width: 280px;
     padding: 13px 5px 5px 5px;
     border-radius: 3px;
 }
@@ -1409,7 +1409,7 @@ select {
     color: #fff;
     background: #afafaf;
     text-decoration: none;
-    padding: 7px 25px;
+    padding: 6px 20px;
     border: 1px solid #b2b2b2;
 
 }
@@ -1455,22 +1455,172 @@ select {
     display: none;
 }
 
-#select-mark{
+#left-select-mark{
     display: block;
-    width: 274px!important;
+    width: 250px!important;
     margin-bottom: 3px;
     margin-left: 7px;
 }
-#select-model{
+#left-select-model{
     display: block;
-    width: 274px!important;
+    width: 250px!important;
     margin-bottom: 3px;
     margin-left: 7px;
 }
-#select-modification{
+#left-select-modification{
     display: block;
-    width: 274px!important;
+    width: 250px!important;
     margin-bottom: 3px;
     margin-left: 7px;
+}
+
+.left-title-filtr-disk{
+    display: block;
+    min-height: 24px;
+}
+
+.left-title-filtr-disk ul{
+    display: block;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+.left-title-filtr-disk ul li{
+    position: relative;
+    display: inline-block;
+
+}
+.left-title-filtr-disk ul .last a{
+    border-radius: 0px 4px 0 0;
+}
+.left-title-filtr-disk ul .first a{
+    border-radius: 4px 0px 0 0;
+}
+
+.left-title-filtr-disk ul li a{
+    color: #fff;
+    background: #afafaf;
+    text-decoration: none;
+    padding: 6px 20px;
+    border: 1px solid #b2b2b2;
+
+}
+.left-title-filtr-disk ul li a:hover, .left-title-filtr-disk li.active a{
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.left-title-filtr-disk .sel-row{
+    position: relative;
+}
+.left-filter-param-disk-auto{
+    display: none;
 }
 /*END Фильтр слева*/
+
+/*Каталог*/
+.catalog_base{
+    padding: 0;
+    margin: -5px;
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+}
+.catalog-it{
+    display: block;
+    border: 1px solid #009900;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    -webkit-transition: box-shadow .2s linear;
+    transition: box-shadow .2s linear;
+    padding: 5px;
+    width: 200px;
+}
+
+.catalog-it:hover{
+    border: 1px solid #457;
+}
+
+.cat-link_1{
+    display: block;
+    font-size: 14px;
+    color: #000;
+    padding: 3px;
+    font-weight: 700;
+
+}
+.cat-link_2{
+    display: block;
+    padding: 3px;
+}
+
+.cat-link_3{
+    display: inline-block;
+    padding: 3px;
+}
+.cat-link_4{
+    display: inline-block;
+    padding: 3px;
+}
+
+.select-248 {
+    width: 248px!important;
+}
+
+/*END Каталог*/
+
+/*Каталог Уровень 2*/
+
+.catalog_base_inner{
+    display: inline-block;
+    padding: 0;
+    margin: -5px;
+    list-style: none;
+    margin: 2px;
+}
+
+.catalog-it-inner{
+    border: 1px solid #009900;
+    border-radius: 5px;
+    margin: 5px;
+    -webkit-transition: box-shadow .2s linear;
+    transition: box-shadow .2s linear;
+    padding: 0px;
+    width: 200px;
+}
+
+.catalog-it-inner:hover{
+    border: 1px solid #457;
+}
+
+.h_cat_line h1{
+    float: left;
+}
+.h_cat_line img{
+    float: right;
+}
+
+.cat-link_1_pop{
+    padding: 0px!important;
+}
+
+.cat-link_1 .img-cat {
+    text-align: center;
+    height: 110px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 10px 0;
+}
+.catalog-it-inner .caption{
+    background: #f6f6f6;
+    color: #000;
+    padding: 10px 0 3px 4px;
+    text-align: left;
+    font-weight: 100;
+    text-decoration: underline;
+    overflow: hidden;
+    border-radius: 0px 0px 4px 4px;
+}
+/*END Каталог ур 2*/
