@@ -132,8 +132,6 @@
                             <!-- end filt-title (заголовок основной блок фильтр) -->
                             <!-- filter-param-shina (фильтр по параметру шины) Блок переключатель-->
                             <div class="filter-param-shina">
-
-
                                 <!-- filt-body (тело основной блок фильтр) -->
                                 <div class="filt-body">
                                     <!-- sel-row-line (два селекта в строку) -->
@@ -189,7 +187,7 @@
                                             <!-- params_section (параметры селекта) -->
                                             <div class="params_section">
                                                 <div class="sel-section">
-                                                    <div class="label">Ширина</div> 
+                                                    <div class="label_f">Ширина</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_313_930177377" value="Y">145</option>
@@ -213,7 +211,7 @@
                                                 </div>
                                                 <span class="inline-help slash">/</span>
                                                 <div class="sel-section">
-                                                    <div class="label">Высота</div> 
+                                                    <div class="label_f">Высота</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
@@ -231,7 +229,7 @@
                                                 </div>
                                                 <span class="inline-help radius">R</span>
                                                 <div class="sel-section">
-                                                    <div class="label">Диаметр</div> 
+                                                    <div class="label_f">Диаметр</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_311_945058907" value="Y">13</option>
@@ -428,7 +426,7 @@
                                             <!-- params_section (параметры селекта) -->
                                             <div class="params_section_disk str">
                                                 <div class="sel-section">
-                                                    <div class="label">Диаметр</div> 
+                                                    <div class="label_f">Диаметр</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_313_930177377" value="Y">145</option>
@@ -438,7 +436,7 @@
                                                 </div>
                                                 <span class="inline-help slash">X</span>
                                                 <div class="sel-section">
-                                                    <div class="label">Ширина</div> 
+                                                    <div class="label_f">Ширина</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
@@ -449,7 +447,7 @@
                                             </div>
                                             <div class="params_section_disk">
                                                 <div class="sel-section">
-                                                    <div class="label">PCD</div> 
+                                                    <div class="label_f">PCD</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_313_930177377" value="Y">145</option>
@@ -459,7 +457,7 @@
                                                 </div>
                                                 <span class="inline-help slash">X</span>
                                                 <div class="sel-section">
-                                                    <div class="label">Вылет ET</div> 
+                                                    <div class="label_f">Вылет ET</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
@@ -469,7 +467,7 @@
                                                 </div>
                                                 <span class="inline-help slash">X</span>
                                                 <div class="sel-section">
-                                                    <div class="label">ЦО (DIO)</div> 
+                                                    <div class="label_f">ЦО (DIO)</div> 
                                                     <select>
                                                         <option value="">—</option>
                                                         <option data-value="arrFilter_292_269248583" value="Y">10.5</option>
@@ -624,45 +622,7 @@
             </div><!-- end Context -->
 
             <div class="footer">
-                <div class="inline">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <div class="in_link">
-                                    <a href="#">
-                                        <div class="inl_icon"><i class="fa fa-users fa-3x" aria-hidden="true"></i></div>
-                                        <div class="inl_title">Удовледворение потребностей</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-3">
-                                <div class="in_link">
-                                    <a href="#">
-                                        <div class="inl_icon"><i class="fa fa-truck fa-3x" aria-hidden="true"></i></div>
-                                        <div class="inl_title">доставка</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-3">
-                                <div class="in_link">
-                                    <a href="#">
-                                        <div class="inl_icon"><i class="fa fa-refresh fa-3x" aria-hidden="true"></i></div>
-                                        <div class="inl_title">безопасная упаковка</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-3">
-                                <div class="in_link">
-                                    <a href="#">
-                                        <div class="inl_icon"><i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i></div>
-                                        <div class="inl_title">Положительные отзывы</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container ">
+                    <div class="container ">
                     <div class="row line_footer ">
                         <div class="col-xs-6">
                             <div class="logo">

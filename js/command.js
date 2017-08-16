@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 
 
-    /* Обработчик клип по смене фильтра*/
+    /* Обработчик клип по смене фильтра на стартовой странице*/
     $('.tag-filtr-title li').click(
             function() {
                 event.preventDefault();
@@ -64,7 +64,7 @@ $(document).ready(function() {
     );
 
 
-    /* Обработчик клип по смене фильтра*/
+    /* Обработчик клип по смене фильтра на стартовой странице*/
     $('.tag-filtr-title-disk li').click(
             function() {
                 event.preventDefault();
@@ -97,6 +97,33 @@ $(document).ready(function() {
                     block_settings.slideUp(300);
                 } else if (display_z == true) {
                     block_settings.slideDown(300);
+                }
+            }
+    );
+
+
+
+
+    /* Обработчик клип по смене фильтра в каталоге*/
+    $('.left-title-filtr li').click(
+            function() {
+                event.preventDefault();
+                list = $(this).parent(); //все списки li
+                list.find('li').removeClass('active');    //Удаляем класс
+
+                form_param_shina = $(this).parent().parent().parent().parent().find('.left-filter-param-shina');
+                form_param_shina_auto = $(this).parent().parent().parent().parent().find('.left-filter-param-shina-auto');
+
+
+
+                $(this).toggleClass('active', '');
+
+                if ($(this).hasClass('first')) {
+                    form_param_shina_auto.hide();
+                    form_param_shina.fadeIn(300);
+                } else if ($(this).hasClass('last')) {
+                    form_param_shina.hide();
+                    form_param_shina_auto.fadeIn(300);
                 }
             }
     );

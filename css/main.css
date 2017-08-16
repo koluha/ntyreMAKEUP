@@ -31,7 +31,7 @@ body {
     left: 0px;
     bottom: 0;
     width: 100%;
-    height: 416px;
+    height: 316px;
 }
 
 .sticky-content{
@@ -340,7 +340,7 @@ input[type="submit"] {
     vertical-align: top;
     margin-bottom: 10px;
 }
-.sel-row .sel-section .label{
+.sel-row .sel-section .label_f{
     font-size: 13px;
     font-weight: 700;
     padding: 3px 0 7px 0;
@@ -1316,7 +1316,7 @@ select {
     -webkit-box-shadow: 0 0 5px #aaa;
     box-shadow: 0 0 5px #aaa;
 }
- 
+
 /* Component containers
 ----------------------------------*/
 .ui-widget {
@@ -1346,7 +1346,7 @@ select {
     font-weight: normal;
     color: #555555;
 }
- 
+
 /*ПРИ НАВЕДЕНИЕ НА ТАБ*/
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
@@ -1371,7 +1371,106 @@ select {
 
 /*END Карточка продукта*/
 
+.context_base{
+    padding: 10px 0 10px 0;
+}
 
+/*Фильтр слева*/
+.left-filtr{
+    background: linear-gradient(to top, #003300, #006600);
+    width: 300px;
+    padding: 13px 5px 5px 5px;
+    border-radius: 3px;
+}
+.left-title-filtr{
+    display: block;
+    min-height: 24px;
+}
 
+.left-title-filtr ul{
+    display: block;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+.left-title-filtr ul li{
+    position: relative;
+    display: inline-block;
 
+}
+.left-title-filtr ul .last a{
+    border-radius: 0px 4px 0 0;
+}
+.left-title-filtr ul .first a{
+    border-radius: 4px 0px 0 0;
+}
 
+.left-title-filtr ul li a{
+    color: #fff;
+    background: #afafaf;
+    text-decoration: none;
+    padding: 7px 25px;
+    border: 1px solid #b2b2b2;
+
+}
+.left-title-filtr ul li a:hover, .left-title-filtr li.active a{
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.left-title-filtr .sel-row{
+    position: relative;
+}
+
+.left-filtr .block-param{
+    background: #f6f6f6;
+    min-height: 40px;
+    border-bottom: 1px solid #7D7D7D;
+}
+.parent-param-center{
+    margin: 0 auto; 
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.parent-param{
+
+}
+
+.left-params_section{
+
+}
+.left-sel-section{
+    display: inline-block;
+    width: 29%;
+    padding: 13px;
+}
+.left-sel-section .label_f{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.left-filter-param-shina-auto{
+    display: none;
+}
+
+#select-mark{
+    display: block;
+    width: 274px!important;
+    margin-bottom: 3px;
+    margin-left: 7px;
+}
+#select-model{
+    display: block;
+    width: 274px!important;
+    margin-bottom: 3px;
+    margin-left: 7px;
+}
+#select-modification{
+    display: block;
+    width: 274px!important;
+    margin-bottom: 3px;
+    margin-left: 7px;
+}
+/*END Фильтр слева*/
